@@ -11,5 +11,12 @@ cd ~/Downloads
 # may be necessary to swap out with another server
 wget http://clanjadewolf.net/~haarp/doom/iwads/doom.wad
 clear
+echo Downloading other DCS scripts...
+wget https://raw.githubusercontent.com/OutRite/DebianComboScripts/master/sublimetext.sh
+chmod +x sublimetext.sh
+clear
+echo Launching DCS scripts...
+./sublimetext.sh
+clear
 echo Starting Cinnamon...
 startx
